@@ -6,6 +6,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
+        // This is the default action for the HomeController. It returns the Index view.
         return View();
     }
 }
